@@ -1,0 +1,78 @@
+body {
+	background: rgb(58, 58, 58);
+	color: rgb(255, 255, 255);
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	background-image: url(/images/mountains.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-origin: content-box;
+	background-position: center;
+	text-align: center;
+	height: 200px;
+
+}
+
+section {
+	background:white;
+	color: grey;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+div {
+	background: red;
+	margin: auto;
+	width: 100px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+li {
+	color: grey;
+	display: inline-block;
+	/*margin-right: 20px;*/
+}
+
+li.padded {
+	padding: 5px 15px;
+	margin: 1px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	padding: 5px 15px;
+	margin: 1px;
+}
+
+a:hover {
+	background-color: rgba(34, 34, 34, 0.8);
+}
+/*
+header .logo a {
+	background-image: url(/images/firefox.png);
+	background-size: 1200px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	position: relative;
+	text-indent: -99999px;
+	width: 300px;
+	height: 80px;
+	top: -40px;
+}
+*/
+
+footer {
+	background: black;
+	padding: 10px 20px;
+}

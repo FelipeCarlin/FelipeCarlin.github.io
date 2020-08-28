@@ -1,4 +1,5 @@
-"# FelipeCarlin.github.io" 
+# FelipeCarlin.github.io 
 
+Simple Webpage from a learning c developer!
 
-[Run the example live](http://felipecarlin.github.io).
+[The actual page](http://felipecarlin.github.io).
